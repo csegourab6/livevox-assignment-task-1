@@ -16,7 +16,7 @@ def test_ASG_DesireRunningCount_1A(ASGName): # Test Case 1 : Point 1- ASG desire
          instance_status = aws_wrappers.describe_instance([instance_id]).reservations[0].instances[0].state.name # Get status of instances
          instance_status[instance_id]=instance_status
       running_instance_count = utility.count_value_dict(instance_status,"running") #Get Running instances count
-      assert desired_running_count == running_instance_count
+      assert desired_running_count == running_instance_count #Desired count should be equal to running
    except Exception as e:
       assert False
 

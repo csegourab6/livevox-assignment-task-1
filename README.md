@@ -7,7 +7,7 @@ This Test project is  developed in python using the pytest framework
 3. Run: pip install -r requirements.txt 
 4. Environment Variable Setup:
     * Key: TestAccessKey  Value: Your access key
-    * Key: TestSecretKey  Value: Your secret key>
+    * Key: TestSecretKey  Value: Your secret key
     * Key: TestASGName    Value: Auto Scaling Group Name
 
 ### Running Project ###
